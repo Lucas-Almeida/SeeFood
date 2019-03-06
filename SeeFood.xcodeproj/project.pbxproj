@@ -13,6 +13,7 @@
 		A02B9595222F7B9A005130E8 /* SeeFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A02B9593222F7B9A005130E8 /* SeeFood.xcdatamodeld */; };
 		A02B9597222F7B9F005130E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02B9596222F7B9F005130E8 /* Assets.xcassets */; };
 		A02B959A222F7B9F005130E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02B9598222F7B9F005130E8 /* LaunchScreen.storyboard */; };
+		A02B95A2222F7C14005130E8 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A02B95A1222F7C14005130E8 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A02B9596222F7B9F005130E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A02B9599222F7B9F005130E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A02B959B222F7B9F005130E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02B95A1222F7C14005130E8 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A02B9598222F7B9F005130E8 /* LaunchScreen.storyboard */,
 				A02B959B222F7B9F005130E8 /* Info.plist */,
 				A02B9593222F7B9A005130E8 /* SeeFood.xcdatamodeld */,
+				A02B95A1222F7C14005130E8 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02B958F222F7B9A005130E8 /* ViewController.swift in Sources */,
+				A02B95A2222F7C14005130E8 /* Inceptionv3.mlmodel in Sources */,
 				A02B9595222F7B9A005130E8 /* SeeFood.xcdatamodeld in Sources */,
 				A02B958D222F7B9A005130E8 /* AppDelegate.swift in Sources */,
 			);
